@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Control Page</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+</head>
+<body>
+    <a href="/manual">
+        <button>Mode Manual</button>
+    </a>
+    <a href="/otomatis">
+        <button>Mode Otomatis</button>
+    </a>
+    <a href="/kipas_mati">
+        <button>Kipas Mati</button>
+    </a>
+    <a href="/kipas_hidup">
+        <button>Kipas Hidup</button>
+    </a>
+    <a href="/lampu_mati">
+        <button>Lampu Mati</button>
+    </a>
+    <a href="/lampu_hidup">
+        <button>Lampu Hidup</button>
+    </a>
+
+    <table>
+        <tr>
+            <th>Temperature</th>
+            <th>Humidity</th>
+            <th>Status</th>
+        </tr>
+        <tr>
+            <td>{{ temp }}</td>
+            <td>{{ hum }}</td>
+            <td>{{ status }}</td>
+        </tr>
+    </table>
+
+    <p><h1>Status Kipas: {{ kipas }}</h1></p>
+    <p><h1>Status Lampu: {{ lampu }}</h1></p>
+
+    <script src="{{ url_for('static', filename='js/scripts.js') }}"></script>
+</body>
+</html>

@@ -83,7 +83,7 @@ python app/flask.py
 
 - Access the web interface by navigating to http://<raspberry-pi-ip>:5000 in your web browser.
 
-## sage
+## Usage
 
 - Mode Manual: Switch to manual control mode where you can directly control the fan and light.
 - Mode Otomatis: Switch to automatic mode where the fan and light are controlled based on temperature readings.

@@ -47,7 +47,7 @@ This project is a web-based system designed to monitor and control hamster cages
 1. **Clone the Repository**
 
 ```bash
-git clone https://github.com/your-username/Design-of-Web-based-Monitoring-and-Control-of-Hamster-Cages-and-Raspberry-Pi.git
+git clone https://github.com/veendysuseno/Design-of-Web-based-Monitoring-and-Control-of-Hamster-Cages-and-Raspberry-Pi.git
 cd Design-of-Web-based-Monitoring-and-Control-of-Hamster-Cages-and-Raspberry-Pi
 ```
 

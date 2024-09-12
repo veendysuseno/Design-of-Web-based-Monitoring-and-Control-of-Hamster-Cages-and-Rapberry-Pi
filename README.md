@@ -1,5 +1,7 @@
 # Design of Web-based Monitoring and Control of Hamster Cages and Raspberry Pi
 
+![images-hamster](static/images/hamster.png)<br/>
+
 ## Overview
 
 This project is a web-based system designed to monitor and control hamster cages using a Raspberry Pi. The system features real-time data monitoring and control of the hamster cage environment, including temperature and humidity. Users can interact with the system via a web interface to manage fan and light settings.
